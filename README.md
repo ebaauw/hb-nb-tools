@@ -1,9 +1,4 @@
-<p align="center">
-  <img src="hb-nb-tools.png" height="200px">  
-</p>
-<span align="center">
-
-# Homebridge NB
+# Homebridge NB Tools
 [![Downloads](https://img.shields.io/npm/dt/hb-nb-tools.svg)](https://www.npmjs.com/package/hb-nb-tools)
 [![Version](https://img.shields.io/npm/v/hb-nb-tools.svg)](https://www.npmjs.com/package/hb-nb-tools)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
