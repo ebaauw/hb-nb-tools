@@ -17,10 +17,8 @@
     "node": "^18.16.0"
   },
   "dependencies": {
-    "hb-lib-tools": "~1.0.9"
-  },
-  "optionalDependencies": {
-    "sodium-plus": "~0.9.0"
+    "hb-lib-tools": "~1.0.9",
+    "tweetnacl": "~1.0.3"
   },
   "scripts": {
     "prepare": "standard",
