@@ -17,7 +17,7 @@
     "node": "18.17.1||^18||^16"
   },
   "dependencies": {
-    "hb-lib-tools": "~1.0.12",
+    "hb-lib-tools": "~1.1.0",
     "tweetnacl": "~1.0.3"
   },
   "scripts": {
