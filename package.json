@@ -14,10 +14,10 @@
     "nb": "cli/nb.js"
   },
   "engines": {
-    "node": "20.8.0||^20||^18"
+    "node": "20.9.0||^20||^18"
   },
   "dependencies": {
-    "hb-lib-tools": "~1.1.2",
+    "hb-lib-tools": "~1.1.4",
     "tweetnacl": "~1.0.3"
   },
   "scripts": {
