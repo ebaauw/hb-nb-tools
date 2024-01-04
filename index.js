@@ -1,7 +1,7 @@
 // hb-nb-tools/index.js
 //
 // Homebridge NB Tools.
-// Copyright © 2017-2023 Erik Baauw. All rights reserved.
+// Copyright © 2017-2024 Erik Baauw. All rights reserved.
 
 'use strict'
 

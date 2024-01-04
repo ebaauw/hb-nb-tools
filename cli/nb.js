@@ -3,7 +3,7 @@
 // nb.js
 //
 // Command line interface to Nuki bridge HTTP API.
-// Copyright © 2018-2023 Erik Baauw. All rights reserved.
+// Copyright © 2018-2024 Erik Baauw. All rights reserved.
 
 'use strict'
 

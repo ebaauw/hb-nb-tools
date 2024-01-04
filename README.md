@@ -8,7 +8,7 @@
 </span>
 
 ## Homebridge NB Tools
-Copyright © 2020-2023 Erik Baauw. All rights reserved.
+Copyright © 2020-2024 Erik Baauw. All rights reserved.
 
 This repository provides a standalone installation of the command-line tools from [Homebridge NB](https://github.com/ebaauw/homebridge-nb):
 
