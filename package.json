@@ -4,6 +4,8 @@
   "author": "Erik Baauw",
   "license": "Apache-2.0",
   "version": "1.1.13",
+  "type": "module",
+  "main": "index.js",
   "keywords": [
     "nuki",
     "smart-lock",
@@ -17,7 +19,7 @@
     "node": "^20||^18"
   },
   "dependencies": {
-    "hb-lib-tools": "~1.2.4",
+    "hb-lib-tools": "~2.0.0-0",
     "tweetnacl": "~1.0.3"
   },
   "scripts": {
