@@ -3,36 +3,34 @@
 // Homebridge NB Tools.
 // Copyright © 2017-2024 Erik Baauw. All rights reserved.
 
-'use strict'
-
 /** Homebridge NB Tools.
   *
   * @module hbNbTools
   */
-class hbNbTools {
-  /** Colour conversions.
-    * <br>See {@link NbClient}.
-    * @type {Class}
-    * @memberof module:hbNbTools
-    */
-  static get NbClient () { return require('./lib/NbClient') }
 
-  /** Parser and validator for command-line arguments.
-    * <br>See {@link NbDiscovery}.
-    * @type {Class}
-    * @memberof module:hbNbTools
-    */
-  static get NbDiscovery () { return require('./lib/NbDiscovery') }
+/** Nuki bridge HTTP API client.
+  * <br>See {@link NbClient}.
+  * @name NbClient
+  * @type {Class}
+  * @memberof module:hbNbTools
+  */
+export { NbClient } from './lib/NbClient.js'
 
-  /** Command-line tool.
-    * <br>See {@link NbListener}.
-    * @type {Class}
-    * @memberof module:hbNbTools
-    */
-  static get NbListener () { return require('./lib/NbListener') }
+/** Parser and validator for command-line arguments.
+  * <br>See {@link NbDiscovery}.
+  * @name NbDiscovery
+  * @type {Class}
+  * @memberof module:hbNbTools
+  */
+export { NbDiscovery } from './lib/NbDiscovery.js'
 
-  // Command-line tools.
-  static get NbTool () { return require('./lib/NbTool') }
-}
+/** Command-line tool.
+  * <br>See {@link NbListener}.
+  * @name NbListener
+  * @type {Class}
+  * @memberof module:hbNbTools
+  */
+export { NbListener } from './lib/NbListener.js'
 
-module.exports = hbNbTools
+// Command-line tools.
+export { NbTool } from './lib/NbTool.js'

@@ -5,9 +5,6 @@
 // Command line interface to Nuki bridge HTTP API.
 // Copyright © 2018-2024 Erik Baauw. All rights reserved.
 
-'use strict'
+import { NbTool } from '../index.js'
 
-const { NbTool } = require('../index')
-const pkgJson = require('../package.json')
-
-new NbTool(pkgJson).main()
+new NbTool(import.meta.dirname).main()
