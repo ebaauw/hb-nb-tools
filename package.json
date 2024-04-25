@@ -5,7 +5,9 @@
   "license": "Apache-2.0",
   "version": "2.0.0-0",
   "type": "module",
-  "main": "index.js",
+  "exports": {
+    "./*": "./lib/*.js"
+  },
   "keywords": [
     "nuki",
     "smart-lock",
@@ -19,7 +21,7 @@
     "node": "^20||^18"
   },
   "dependencies": {
-    "hb-lib-tools": "~2.0.0-0",
+    "hb-lib-tools": "~2.0.0-1",
     "tweetnacl": "~1.0.3"
   },
   "scripts": {

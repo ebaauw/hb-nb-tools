@@ -5,6 +5,6 @@
 // Command line interface to Nuki bridge HTTP API.
 // Copyright © 2018-2024 Erik Baauw. All rights reserved.
 
-import { NbTool } from '../index.js'
+import { NbTool } from 'hb-nb-tools/NbTool'
 
 new NbTool(import.meta.dirname).main()
