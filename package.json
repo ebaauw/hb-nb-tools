@@ -21,11 +21,11 @@
     "node": "^20||^18"
   },
   "dependencies": {
-    "hb-lib-tools": "~2.0.0-1",
+    "hb-lib-tools": "~2.0.0-2",
     "tweetnacl": "~1.0.3"
   },
   "scripts": {
-    "prepare": "standard",
+    "prepare": "standard && rm -rf out && jsdoc -c jsdoc.json",
     "test": "standard && echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -35,5 +35,15 @@
   "bugs": {
     "url": "https://github.com/ebaauw/hb-nb-tools/issues"
   },
-  "homepage": "https://github.com/ebaauw/hb-nb-tools#readme"
+  "homepage": "https://github.com/ebaauw/hb-nb-tools#readme",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ebaauw"
+    },
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.me/ebaauw/EUR"
+    }
+  ]
 }
