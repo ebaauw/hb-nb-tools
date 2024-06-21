@@ -3,7 +3,7 @@
   "description": "Homebridge NB Tools",
   "author": "Erik Baauw",
   "license": "Apache-2.0",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "type": "module",
   "exports": {
     "./*": "./lib/*.js"
