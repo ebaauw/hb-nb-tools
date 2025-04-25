@@ -24,7 +24,7 @@
     "node": "^22||^20||^18"
   },
   "dependencies": {
-    "hb-lib-tools": "~2.2.2",
+    "hb-lib-tools": "~2.2.3",
     "tweetnacl": "~1.0.3"
   },
   "scripts": {
