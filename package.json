@@ -21,7 +21,7 @@
     "nb": "cli/nb.js"
   },
   "engines": {
-    "node": "^22||^20||^18"
+    "node": "^22||^20"
   },
   "dependencies": {
     "hb-lib-tools": "~2.2.5",
